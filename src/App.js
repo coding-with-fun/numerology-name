@@ -1,11 +1,15 @@
 import React from "react";
-import { Container } from "reactstrap";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import WrappedRouter from "./utils/Router";
 
 const App = () => {
     return (
-        <Container>
-            <h1>Home</h1>
-        </Container>
+        <Router>
+            <Navbar>
+                <WrappedRouter />
+            </Navbar>
+        </Router>
     );
 };
 
