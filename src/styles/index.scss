@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    font-family: "Poppins", sans-serif;
+}
+
+.app__container {
+    height: calc(100vh - 56px);
+}
