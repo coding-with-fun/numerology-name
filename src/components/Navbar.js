@@ -17,7 +17,12 @@ const NavbarComponent = ({ children }) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="sm" className="px-3">
+            <Navbar
+                color="light"
+                light
+                expand="sm"
+                className="px-3 fixed-top w-100"
+            >
                 <NavbarBrand tag={Link} to="/">
                     Harrsh
                 </NavbarBrand>
@@ -33,7 +38,7 @@ const NavbarComponent = ({ children }) => {
                 </Collapse>
             </Navbar>
 
-            {children}
+            <div className="navbar__child">{children}</div>
         </div>
     );
 };

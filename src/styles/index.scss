@@ -8,6 +8,21 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.app__container {
-    height: calc(100vh - 56px);
+.navbar__child {
+    padding-top: 56px;
+    height: 100vh;
+}
+
+.date-input {
+    width: 270px;
+}
+
+.form__label {
+    font-size: 1.25rem;
+    width: 9.2rem;
+}
+
+.navbar-toggler:focus,
+.btn-outline-primary:focus {
+    box-shadow: none;
 }

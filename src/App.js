@@ -7,9 +7,7 @@ const App = () => {
     return (
         <Router>
             <Navbar>
-                <div className="app__container">
-                    <WrappedRouter />
-                </div>
+                <WrappedRouter />
             </Navbar>
         </Router>
     );
